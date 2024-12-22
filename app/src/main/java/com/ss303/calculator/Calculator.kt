@@ -35,6 +35,7 @@ class Calculator : AppCompatActivity() {
         binding.btnMul.setOnClickListener { model.press('*') }
         binding.btnDiv.setOnClickListener { model.press('/') }
         binding.btnEqal.setOnClickListener { model.press('=') }
+        binding.btnPoint.setOnClickListener { model.press('.') }
         binding.btnParcent.setOnClickListener { model.press('%') }
         binding.btnC.setOnClickListener { model.press('C') }
         binding.btnPlusMinus.setOnClickListener { model.press('M') }
